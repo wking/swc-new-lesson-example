@@ -6,7 +6,6 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="{{ site.root }}/conduct/">Code of Conduct</a></li>
 	{% unless site.is_workshop %}
         <li><a href="{{ site.root }}/setup/">Setup</a></li>
         <li class="dropdown">
@@ -28,6 +27,7 @@
         </li>
 	{% endunless %}
         <li><a href="{{ site.root }}/license/">License</a></li>
+        <li><a href="{{ site.root }}/conduct/">Code of Conduct</a></li>
       </ul>
       <form class="navbar-form navbar-right" role="search" id="search" onsubmit="google_search(); return false;">
         <div class="form-group">
