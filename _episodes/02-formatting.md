@@ -171,7 +171,6 @@ for the following special blockquotes:
 
 *   `.callout`: an aside or other comment.
 *   `.challenge`: an exercise.
-*   `.getready`: preparatory material.
 *   `.keypoints`: key points of an episode.
 *   `.objectives`: episode objectives.
 *   `.prereq`: lesson prerequisites.
