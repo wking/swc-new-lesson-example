@@ -33,7 +33,7 @@ in a template repo.
 The master copy of each lesson would be a fork of that repo,
 and each author's working copy would be a fork of that master:
 
-![Forking Repositories]({{ site.root }}/fig/forking.svg)
+![Forking Repositories]({{ page.root }}/fig/forking.svg)
 
 However, GitHub only allows a user to have one fork of any particular repo.
 This creates a problem for us because an author may be involved in writing several lessons,
@@ -43,7 +43,7 @@ After the lesson has been created,
 we manually add the [template repository]({{ site.template_repo }}) as a remote called `template`
 to update the lesson when the template changes.
 
-![Repository Links]({{ site.root }}/fig/repository-links.svg)
+![Repository Links]({{ page.root }}/fig/repository-links.svg)
 
 ## GitHub Pages
 
@@ -73,7 +73,7 @@ If authors want to write lessons in something else,
 such as [R Markdown][r-markdown],
 they must generate HTML or Markdown that [Jekyll][jekyll] can process
 and commit that to the repository.
-The [next episode]({{ site.root }}/02-formatting/) describes the Markdown we use.
+The [next episode]({{ page.root }}/02-formatting/) describes the Markdown we use.
 
 > ## Teaching Tools
 >
@@ -164,7 +164,7 @@ putting the extra files in `_extras` allows us to populate the "Extras" menu pul
 To clarify what will appear where,
 we store files that appear directly in the navigation bar
 in the root directory of the lesson.
-[The last episode]({{ site.root }}/03-organization/) describes these files.
+[The last episode]({{ page.root }}/03-organization/) describes these files.
 
 ## Installing
 
