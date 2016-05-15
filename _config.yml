@@ -50,6 +50,10 @@ collections:
 defaults:
   - scope:
       path: ""
+    values:
+      root: ..
+  - scope:
+      path: ""
       type: episodes
     values:
       layout: episode
