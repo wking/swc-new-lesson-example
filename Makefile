@@ -34,11 +34,11 @@ commands :
 
 ## serve      : run a local server.
 serve :
-	${JEKYLL} serve --config _config.yml,_config_dev.yml
+	${JEKYLL} serve
 
 ## site       : build files but do not run a server.
 site :
-	${JEKYLL} build --config _config.yml,_config_dev.yml
+	${JEKYLL} build
 
 ## clean      : clean up junk files.
 clean :
